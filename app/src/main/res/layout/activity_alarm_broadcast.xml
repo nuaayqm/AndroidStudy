@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <CheckBox
+        android:id="@+id/cb_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="是否重复闹钟"
+        android:textSize="17sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/tv_delay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="闹钟延迟间隔："
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <Spinner
+            android:id="@+id/sp_delay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/tv_delay"
+            android:gravity="left|center"
+            android:spinnerMode="dialog" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置闹钟" />
+
+    <TextView
+        android:id="@+id/tv_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置闹钟时间"
+        />
+
+    <TextView
+        android:id="@+id/tv_arrive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="闹钟到达时间"
+        />
+
+
+</LinearLayout>

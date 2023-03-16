@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alibaba.mystudydemo02.ImplicitIntentTest">
+
+    <Button
+        android:id="@+id/buttonToApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to another app" />
+
+    <Button
+        android:id="@+id/buttonAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set 10 seconds alarm" />
+
+    <TextView
+        android:id="@+id/tv_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <fragment
+        android:id="@+id/fragment_container_view"
+        android:name="com.alibaba.mystudydemo02.ExampleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:tag="my_frag"/>
+
+
+</LinearLayout>

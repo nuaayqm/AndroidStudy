@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="simple_calculator">简易计算器</string>
+    <string name="cancel">CE</string>
+    <string name="divide">÷</string>
+    <string name="multiply">×</string>
+    <string name="clear">C</string>
+    <string name="add">+</string>
+    <string name="inverse">1/X</string>
+    <string name="point">.</string>
+    <string name="equal">=</string>
+</resources>

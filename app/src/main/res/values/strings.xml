@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="activity_2">Here is activity 2 string!</string>
+</resources>

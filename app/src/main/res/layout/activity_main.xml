@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Here is main activity" />
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/btn_ma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:gravity="center"
+        android:text="To A"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/btn_main_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:gravity="center"
+        android:text="To broadcast"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/btn_main_alarm_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:gravity="center"
+        android:text="To alarm broadcast"
+        android:textAllCaps="false" />
+
+</LinearLayout>
