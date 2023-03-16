@@ -1,2 +1,2 @@
-Git is a distributed version control system.
-Git is free software.
+Here is my Android study repository.
+Only use myself.
