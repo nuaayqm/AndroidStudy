@@ -10,7 +10,7 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.widget.CheckBox;
 import android.widget.TextView;
-import
+
 
 import com.example.myapplication.R;
 import com.example.myapplication.Util.DataUtils;
@@ -39,6 +39,9 @@ public class BroadcastStandardActivity extends AppCompatActivity {
                 )
         );
 
+        GetterTest getterTest = new GetterTest();
+        getterTest.getA();
+        getterTest.getA2();
     }
 
     private class StandardReceiver extends BroadcastReceiver {
