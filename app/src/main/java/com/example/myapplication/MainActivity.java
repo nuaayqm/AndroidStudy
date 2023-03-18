@@ -9,6 +9,8 @@ import com.example.myapplication.broadcastDemo.AlarmBroadcastActivity;
 import com.example.myapplication.broadcastDemo.BroadcastStandardActivity;
 import com.example.myapplication.intentDemo.A;
 
+import lombok.Data;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -27,6 +29,5 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_main_alarm_broadcast).setOnClickListener(
                 v -> startActivity(new Intent(this, AlarmBroadcastActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
         );
-
     }
 }
