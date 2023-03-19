@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapplication.activityDemo.RegisterActivity;
 import com.example.myapplication.broadcastDemo.AlarmBroadcastActivity;
 import com.example.myapplication.broadcastDemo.BroadcastStandardActivity;
 import com.example.myapplication.intentDemo.A;
@@ -35,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
                 v -> startActivity(new Intent(this, ServiceMainActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
         );
 
+
+        findViewById(R.id.btn_main_register).setOnClickListener(
+                v -> startActivity(new Intent(this, RegisterActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
+        );
 
     }
 }

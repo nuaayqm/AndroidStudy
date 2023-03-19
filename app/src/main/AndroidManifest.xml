@@ -13,10 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+        <activity
+            android:name=".activityDemo.LogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activityDemo.RegisterActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".serviceDemo.MyBindService"
+            android:enabled="true"
+            android:exported="true" />
         <service
             android:name=".serviceDemo.MyService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
 
         <activity
             android:name=".serviceDemo.ServiceMainActivity"

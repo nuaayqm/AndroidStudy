@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-  
-</selector>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#0fffff"/>
+    <corners android:radius="100dp"/>
+    <stroke android:width="5dp"
+        android:color="#aaaaaa"
+        android:dashGap="3dp"
+        android:dashWidth="10dp"/>
+
+</shape>
