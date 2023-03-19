@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapplication.broadcastDemo.AlarmBroadcastActivity;
 import com.example.myapplication.broadcastDemo.BroadcastStandardActivity;
 import com.example.myapplication.intentDemo.A;
+import com.example.myapplication.serviceDemo.ServiceMainActivity;
 
 import lombok.Data;
 
@@ -29,5 +30,11 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_main_alarm_broadcast).setOnClickListener(
                 v -> startActivity(new Intent(this, AlarmBroadcastActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
         );
+
+        findViewById(R.id.btn_main_service).setOnClickListener(
+                v -> startActivity(new Intent(this, ServiceMainActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
+        );
+
+
     }
 }
