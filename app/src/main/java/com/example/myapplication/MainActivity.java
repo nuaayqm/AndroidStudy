@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapplication.activityDemo.RegisterActivity;
 import com.example.myapplication.broadcastDemo.AlarmBroadcastActivity;
 import com.example.myapplication.broadcastDemo.BroadcastStandardActivity;
+import com.example.myapplication.editDemo.EditActivity;
 import com.example.myapplication.intentDemo.A;
 import com.example.myapplication.serviceDemo.ServiceMainActivity;
 
@@ -39,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.btn_main_register).setOnClickListener(
                 v -> startActivity(new Intent(this, RegisterActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
+        );
+
+        findViewById(R.id.btn_to_editDemo).setOnClickListener(
+                v -> startActivity(new Intent(this, EditActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP))
         );
 
     }
