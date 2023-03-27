@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor(new OpenAILogger());
             httpLoggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
             OpenAiClient openAiClient = OpenAiClient.builder()
-                    .apiKey("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")
+                    .apiKey("")
                     .connectTimeout(50)
                     .writeTimeout(50)
                     .readTimeout(50)
