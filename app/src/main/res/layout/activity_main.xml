@@ -70,4 +70,11 @@
         android:text="To Edit Demo"
         android:textAllCaps="false"/>
 
+    <Button
+        android:id="@+id/btn_to_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Dialog Demo"
+        android:textAllCaps="false"/>
+
 </LinearLayout>
